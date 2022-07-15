@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "u0hlEbCHQwoHcwpTjMOc8XqSRyuGqm6g704wR5sx1GST5htwf4gdvXWSNKDwoV63Wu9tPOHiu1l3xPevjIvuNA==",
+  "dgSpecHash": "sTSBXmBAM6Uzw24saXn80FTTVdmxYYwTaHft4/DsyF7IPi6+IccC095/br3jEpxdSa2OeWK73WErMdyXw+VxjA==",
   "success": true,
   "projectFilePath": "C:\\Users\\z_mengliboyev\\Source\\Repos\\TextEditor_NGSQL_DotNET\\TextEditor_NGSQL_DotNET\\TextEditor_NGSQL_DotNET.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\z_mengliboyev\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\z_mengliboyev\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\z_mengliboyev\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.7\\microsoft.entityframeworkcore.6.0.7.nupkg.sha512",
     "C:\\Users\\z_mengliboyev\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.7\\microsoft.entityframeworkcore.abstractions.6.0.7.nupkg.sha512",
     "C:\\Users\\z_mengliboyev\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.7\\microsoft.entityframeworkcore.analyzers.6.0.7.nupkg.sha512",

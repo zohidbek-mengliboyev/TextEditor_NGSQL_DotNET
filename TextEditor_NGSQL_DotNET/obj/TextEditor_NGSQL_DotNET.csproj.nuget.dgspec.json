@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\z_mengliboyev\\source\\repos\\TextEditor_NGSQL_DotNET\\TextEditor_NGSQL_DotNET\\TextEditor_NGSQL_DotNET.csproj": {}
+    "C:\\Users\\z_mengliboyev\\Source\\Repos\\TextEditor_NGSQL_DotNET\\TextEditor_NGSQL_DotNET\\TextEditor_NGSQL_DotNET.csproj": {}
   },
   "projects": {
-    "C:\\Users\\z_mengliboyev\\source\\repos\\TextEditor_NGSQL_DotNET\\TextEditor_NGSQL_DotNET\\TextEditor_NGSQL_DotNET.csproj": {
+    "C:\\Users\\z_mengliboyev\\Source\\Repos\\TextEditor_NGSQL_DotNET\\TextEditor_NGSQL_DotNET\\TextEditor_NGSQL_DotNET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\z_mengliboyev\\source\\repos\\TextEditor_NGSQL_DotNET\\TextEditor_NGSQL_DotNET\\TextEditor_NGSQL_DotNET.csproj",
+        "projectUniqueName": "C:\\Users\\z_mengliboyev\\Source\\Repos\\TextEditor_NGSQL_DotNET\\TextEditor_NGSQL_DotNET\\TextEditor_NGSQL_DotNET.csproj",
         "projectName": "TextEditor_NGSQL_DotNET",
-        "projectPath": "C:\\Users\\z_mengliboyev\\source\\repos\\TextEditor_NGSQL_DotNET\\TextEditor_NGSQL_DotNET\\TextEditor_NGSQL_DotNET.csproj",
+        "projectPath": "C:\\Users\\z_mengliboyev\\Source\\Repos\\TextEditor_NGSQL_DotNET\\TextEditor_NGSQL_DotNET\\TextEditor_NGSQL_DotNET.csproj",
         "packagesPath": "C:\\Users\\z_mengliboyev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\z_mengliboyev\\source\\repos\\TextEditor_NGSQL_DotNET\\TextEditor_NGSQL_DotNET\\obj\\",
+        "outputPath": "C:\\Users\\z_mengliboyev\\Source\\Repos\\TextEditor_NGSQL_DotNET\\TextEditor_NGSQL_DotNET\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\z_mengliboyev\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"

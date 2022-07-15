@@ -98,5 +98,10 @@ namespace TextEditor_NGSQL_DotNET.Repository
                 throw;
             }
         }
+
+        public async Task SaveChangesAsync()
+        {
+            await dbContext.SaveChangesAsync();
+        }
     }
 }

@@ -9,5 +9,7 @@ namespace TextEditor_NGSQL_DotNET.IRepository
         Task<T> GetAsync(Expression<Func<T, bool>> expression);
         Task<IQueryable<T>> GetAllAsync(Expression<Func<T, bool>> expression = null);
         Task<bool> DeleteAsync(Expression<Func<T, bool>> expression);
+
+        Task SaveChangesAsync();
     }
 }

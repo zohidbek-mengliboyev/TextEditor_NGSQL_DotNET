@@ -6,7 +6,7 @@ namespace TextEditor_NGSQL_DotNET.Repository
 {
     public class PostContentRepository : GenericRepository<Post>, IPostContentRepository
     {
-        public PostContentRepository(TxtEditorDbContext dbContext, Serilog.ILogger logger) : base(dbContext, logger)
+        public PostContentRepository(TxtEditorDbContext dbContext) : base(dbContext)
         {
         }
     }

@@ -1,9 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Serilog;
 using System.Linq.Expressions;
 using TextEditor_NGSQL_DotNET.Context;
 using TextEditor_NGSQL_DotNET.IRepository;
-using ILogger = Serilog.ILogger;
+using Serilog;
 
 namespace TextEditor_NGSQL_DotNET.Repository
 {
@@ -12,13 +11,13 @@ namespace TextEditor_NGSQL_DotNET.Repository
     {
         internal TxtEditorDbContext dbContext;
         internal DbSet<T> dbSet;
-        private readonly ILogger logger;
+       
 
-        public GenericRepository(TxtEditorDbContext dbContext, ILogger logger)
+        public GenericRepository(TxtEditorDbContext dbContext)
         {
             this.dbContext = dbContext;
             this.dbSet = dbContext.Set<T>();
-            this.logger = logger;
+     
         }
 
         public async Task<T> CreateAsync(T entity)
@@ -31,7 +30,7 @@ namespace TextEditor_NGSQL_DotNET.Repository
             }
             catch (Exception ex)
             {
-                Log.Error("Error creating entity {0}", ex.Message);
+                //Log.Error("Error creating entity {0}", ex.Message);
                 throw;
             }
         }
@@ -51,7 +50,7 @@ namespace TextEditor_NGSQL_DotNET.Repository
             }
             catch (Exception ex)
             {
-                Log.Error("Error in DeleteAsync: {0}", ex.Message);
+                //Log.Error("Error in DeleteAsync: {0}", ex.Message);
                 throw;
             }
         }
@@ -65,7 +64,7 @@ namespace TextEditor_NGSQL_DotNET.Repository
             }
             catch (Exception ex)
             {
-                Log.Error("Error in Getall: {0}", ex.Message);
+                //Log.Error("Error in Getall: {0}", ex.Message);
                 throw;
             }
         }
@@ -79,7 +78,7 @@ namespace TextEditor_NGSQL_DotNET.Repository
             }
             catch (Exception ex)
             {
-                Log.Error("Error in GetAsync: {0}", ex.Message);
+                //Log.Error("Error in GetAsync: {0}", ex.Message);
                 throw;
             }
         }
@@ -94,7 +93,7 @@ namespace TextEditor_NGSQL_DotNET.Repository
             }
             catch (Exception ex)
             {
-                Log.Error("Error in UpdateAsync: {0}", ex.Message);
+                //Log.Error("Error in UpdateAsync: {0}", ex.Message);
                 throw;
             }
         }

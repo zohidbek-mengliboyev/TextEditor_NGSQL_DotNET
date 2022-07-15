@@ -13,7 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<TxtEditorDbContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("TextEditorWithDotNET"),
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
       builder => { builder.EnableRetryOnFailure(5, TimeSpan.FromSeconds(10), null); });
 });
 

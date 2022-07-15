@@ -9,6 +9,7 @@ namespace TextEditor_NGSQL_DotNET.Extensions
     {
         public static void AddCustomServices(this IServiceCollection services)
         {
+            services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<IPostContentRepository, PostContentRepository>();
             services.AddScoped<IPostContentService, PostContentService>();
         }

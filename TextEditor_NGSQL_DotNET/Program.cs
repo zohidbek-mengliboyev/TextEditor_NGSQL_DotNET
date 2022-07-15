@@ -5,13 +5,16 @@ using TextEditor_NGSQL_DotNET.Extensions;
 using TextEditor_NGSQL_DotNET.Helper;
 using TextEditor_NGSQL_DotNET.Mapper;
 
+var myAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddDbContext<TxtEditorDbContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("TextEditorWithDotNET"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("TextEditorWithDotNET"),
+      builder => { builder.EnableRetryOnFailure(5, TimeSpan.FromSeconds(10), null); });
 });
 
 builder.Services.AddControllers().AddNewtonsoftJson();
@@ -32,6 +35,18 @@ builder.Services.AddAutoMapper(typeof(MappingProfile));
 //custom services
 builder.Services.AddCustomServices();
 
+// Enable CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: myAllowSpecificOrigins,
+        builder =>
+        {
+            builder.WithOrigins("http://localhost:4200")
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+        });
+});
+
 
 
 var app = builder.Build();
@@ -44,9 +59,15 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TextEditor_NGSQL_DotNET v1"));
 }
 
+if (app.Services.GetService<IHttpContextAccessor>() != null)
+{
+    HttpContextHelper.Accessor = app.Services.GetRequiredService<IHttpContextAccessor>();
+}
+
 app.UseHttpsRedirection();
 
 app.UseRouting();
+app.UseCors(myAllowSpecificOrigins);
 
 app.UseAuthorization();
 

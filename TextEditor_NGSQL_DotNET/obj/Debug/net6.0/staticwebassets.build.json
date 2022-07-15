@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "D31FITf+eFgX+jhsJ7BgGiEszroUzeNpwDdkftQ6zYY=",
+  "Source": "TextEditor_NGSQL_DotNET",
+  "BasePath": "_content/TextEditor_NGSQL_DotNET",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

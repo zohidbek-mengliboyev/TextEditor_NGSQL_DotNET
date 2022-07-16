@@ -20,7 +20,7 @@ namespace TextEditor_NGSQL_DotNET.Service
             this.repository = repository;
         }
 
-        public async Task<BaseResponse<Post>> CreateAsync(Content con)
+        public async Task<BaseResponse<Post>> CreateAsync(PostContent con)
         {
             var response = new BaseResponse<Post>();
 
@@ -90,7 +90,7 @@ namespace TextEditor_NGSQL_DotNET.Service
             return response;
         }
 
-        public async Task<BaseResponse<Post>> UpdateAsync(int id, Content con)
+        public async Task<BaseResponse<Post>> UpdateAsync(int id, PostContent con)
         {
             var response = new BaseResponse<Post>();
 
@@ -102,8 +102,8 @@ namespace TextEditor_NGSQL_DotNET.Service
                 return response;
             }
 
-            post.Title = con.PageContentTitle;
-            post.Content = con.PageContent;
+            post.Title = con.Title;
+            post.Content = con.Content;
             post.Update();
 
             var result = await repository.UpdateAsync(post);

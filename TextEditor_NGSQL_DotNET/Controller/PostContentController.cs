@@ -7,7 +7,7 @@ using TextEditor_NGSQL_DotNET.Model;
 
 namespace TextEditor_NGSQL_DotNET.Controller
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class PostContentController : ControllerBase
     {
@@ -18,7 +18,7 @@ namespace TextEditor_NGSQL_DotNET.Controller
         }
 
         [HttpPost]
-        public async Task<ActionResult<BaseResponse<Post>>> Create(Content con)
+        public async Task<ActionResult<BaseResponse<Post>>> Create(PostContent con)
         {
             var result = await postContentService.CreateAsync(con);
 
@@ -43,7 +43,7 @@ namespace TextEditor_NGSQL_DotNET.Controller
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult<BaseResponse<Post>>> Update(int id, [FromForm] Content con)
+        public async Task<ActionResult<BaseResponse<Post>>> Update(int id, [FromForm] PostContent con)
         {
             var result = await postContentService.UpdateAsync(id, con);
 

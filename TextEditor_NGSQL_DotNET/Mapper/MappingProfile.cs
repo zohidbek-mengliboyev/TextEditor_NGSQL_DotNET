@@ -8,7 +8,7 @@ namespace TextEditor_NGSQL_DotNET.Mapper
     {
         public MappingProfile()
         {
-            CreateMap<Content, Post>().ReverseMap();
+            CreateMap<PostContent, Post>().ReverseMap();
         }
     }
 }

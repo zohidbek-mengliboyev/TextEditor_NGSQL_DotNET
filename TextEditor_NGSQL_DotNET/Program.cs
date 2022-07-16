@@ -64,6 +64,11 @@ if (app.Services.GetService<IHttpContextAccessor>() != null)
     HttpContextHelper.Accessor = app.Services.GetRequiredService<IHttpContextAccessor>();
 }
 
+app.UseCors(x => x
+     .AllowAnyOrigin()
+     .AllowAnyMethod()
+     .AllowAnyHeader());
+
 app.UseHttpsRedirection();
 
 app.UseRouting();

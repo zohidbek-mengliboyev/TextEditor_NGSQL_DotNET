@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8IYkFofCoiU1nRentQmBcP/KUasZA29+j9NvAJs3PucYtwez5gkAhu2l5W/1i6pMDn2vZc/IgCwEN6CmPEG+Ig==",
+  "dgSpecHash": "22ZjXvfHQ3ZhV52fOTYySXMeiwcBnD2D2gWKYCpKH4RDkgtCZDh8Yllg78YaQy4QrV4VKfO+fbYBTcu/0FigVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\z_mengliboyev\\Source\\Repos\\TextEditor_NGSQL_DotNET\\TextEditor_NGSQL_DotNET\\TextEditor_NGSQL_DotNET.csproj",
+  "projectFilePath": "C:\\Users\\z_mengliboyev\\source\\repos\\TextEditor_NGSQL_DotNET\\TextEditor_NGSQL_DotNET\\TextEditor_NGSQL_DotNET.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\z_mengliboyev\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\z_mengliboyev\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

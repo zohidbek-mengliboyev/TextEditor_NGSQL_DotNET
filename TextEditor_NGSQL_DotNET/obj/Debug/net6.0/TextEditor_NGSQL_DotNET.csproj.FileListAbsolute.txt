@@ -1,10 +1,3 @@
-C:\Users\z_mengliboyev\Source\Repos\TextEditor_NGSQL_DotNET\TextEditor_NGSQL_DotNET\obj\Debug\net6.0\TextEditor_NGSQL_DotNET.csproj.AssemblyReference.cache
-C:\Users\z_mengliboyev\Source\Repos\TextEditor_NGSQL_DotNET\TextEditor_NGSQL_DotNET\obj\Debug\net6.0\TextEditor_NGSQL_DotNET.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\z_mengliboyev\Source\Repos\TextEditor_NGSQL_DotNET\TextEditor_NGSQL_DotNET\obj\Debug\net6.0\TextEditor_NGSQL_DotNET.AssemblyInfoInputs.cache
-C:\Users\z_mengliboyev\Source\Repos\TextEditor_NGSQL_DotNET\TextEditor_NGSQL_DotNET\obj\Debug\net6.0\TextEditor_NGSQL_DotNET.AssemblyInfo.cs
-C:\Users\z_mengliboyev\Source\Repos\TextEditor_NGSQL_DotNET\TextEditor_NGSQL_DotNET\obj\Debug\net6.0\TextEditor_NGSQL_DotNET.csproj.CoreCompileInputs.cache
-C:\Users\z_mengliboyev\Source\Repos\TextEditor_NGSQL_DotNET\TextEditor_NGSQL_DotNET\obj\Debug\net6.0\TextEditor_NGSQL_DotNET.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\z_mengliboyev\Source\Repos\TextEditor_NGSQL_DotNET\TextEditor_NGSQL_DotNET\obj\Debug\net6.0\TextEditor_NGSQL_DotNET.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\z_mengliboyev\Source\Repos\TextEditor_NGSQL_DotNET\TextEditor_NGSQL_DotNET\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\z_mengliboyev\Source\Repos\TextEditor_NGSQL_DotNET\TextEditor_NGSQL_DotNET\bin\Debug\net6.0\appsettings.json
 C:\Users\z_mengliboyev\Source\Repos\TextEditor_NGSQL_DotNET\TextEditor_NGSQL_DotNET\bin\Debug\net6.0\TextEditor_NGSQL_DotNET.exe
@@ -60,6 +53,13 @@ C:\Users\z_mengliboyev\Source\Repos\TextEditor_NGSQL_DotNET\TextEditor_NGSQL_Dot
 C:\Users\z_mengliboyev\Source\Repos\TextEditor_NGSQL_DotNET\TextEditor_NGSQL_DotNET\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\z_mengliboyev\Source\Repos\TextEditor_NGSQL_DotNET\TextEditor_NGSQL_DotNET\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\z_mengliboyev\Source\Repos\TextEditor_NGSQL_DotNET\TextEditor_NGSQL_DotNET\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\z_mengliboyev\Source\Repos\TextEditor_NGSQL_DotNET\TextEditor_NGSQL_DotNET\obj\Debug\net6.0\TextEditor_NGSQL_DotNET.csproj.AssemblyReference.cache
+C:\Users\z_mengliboyev\Source\Repos\TextEditor_NGSQL_DotNET\TextEditor_NGSQL_DotNET\obj\Debug\net6.0\TextEditor_NGSQL_DotNET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\z_mengliboyev\Source\Repos\TextEditor_NGSQL_DotNET\TextEditor_NGSQL_DotNET\obj\Debug\net6.0\TextEditor_NGSQL_DotNET.AssemblyInfoInputs.cache
+C:\Users\z_mengliboyev\Source\Repos\TextEditor_NGSQL_DotNET\TextEditor_NGSQL_DotNET\obj\Debug\net6.0\TextEditor_NGSQL_DotNET.AssemblyInfo.cs
+C:\Users\z_mengliboyev\Source\Repos\TextEditor_NGSQL_DotNET\TextEditor_NGSQL_DotNET\obj\Debug\net6.0\TextEditor_NGSQL_DotNET.csproj.CoreCompileInputs.cache
+C:\Users\z_mengliboyev\Source\Repos\TextEditor_NGSQL_DotNET\TextEditor_NGSQL_DotNET\obj\Debug\net6.0\TextEditor_NGSQL_DotNET.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\z_mengliboyev\Source\Repos\TextEditor_NGSQL_DotNET\TextEditor_NGSQL_DotNET\obj\Debug\net6.0\TextEditor_NGSQL_DotNET.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\z_mengliboyev\Source\Repos\TextEditor_NGSQL_DotNET\TextEditor_NGSQL_DotNET\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\z_mengliboyev\Source\Repos\TextEditor_NGSQL_DotNET\TextEditor_NGSQL_DotNET\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\z_mengliboyev\Source\Repos\TextEditor_NGSQL_DotNET\TextEditor_NGSQL_DotNET\obj\Debug\net6.0\scopedcss\bundle\TextEditor_NGSQL_DotNET.styles.css
